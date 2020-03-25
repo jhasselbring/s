@@ -3,7 +3,7 @@ yum install php php-mysql -y;
 yum install mariadb-server mariadb -y;
 
 systemctl start httpd.service;
-systemctl start mariadb;
+systemctl start mariadb.service;
 
 systemctl enable httpd.service;
 systemctl enable mariadb.service;
