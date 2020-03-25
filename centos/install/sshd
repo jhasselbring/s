@@ -1,0 +1,3 @@
+yum install openssh openssh-server openssh-clients openssl-libs -y;
+systemctl enable sshd.service
+systemctl start sshd.service
