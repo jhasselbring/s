@@ -1,1 +1,1 @@
-printf '\nrun (){\nwget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1 | bash\n}' >> ~/.bashrc
+printf '\nrun (){\nwget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1 | bash\n}' >> ~/.bashrc 
