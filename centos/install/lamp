@@ -1,0 +1,11 @@
+yum install httpd -y;
+yum install php php-mysql -y;
+yum install mariadb-server mariadb -y;
+
+systemctl start httpd.service;
+systemctl start mariadb;
+
+systemctl enable httpd.service;
+systemctl enable mariadb.service;
+
+mysql_secure_installation
