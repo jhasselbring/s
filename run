@@ -1,2 +1,1 @@
-#!/bin/bash
-wget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1 | bash
+echo 'run (){wget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1 | bash}' >> ~/.bashrc
