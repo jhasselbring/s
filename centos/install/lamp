@@ -8,4 +8,4 @@ systemctl start mariadb.service;
 systemctl enable httpd.service;
 systemctl enable mariadb.service;
 
-mysql_secure_installation
+mysql_secure_installation;
