@@ -3,3 +3,4 @@ yum install sudo -y;
 yum install unzip -y;
 yum install tar -y;
 yum install git -y;
+yum install nano -y;
