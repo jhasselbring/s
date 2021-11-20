@@ -1,0 +1,8 @@
+[Unit]
+Description=Commander SystemD
+
+[Service]
+ExecStart=/opt/ninja/commander
+
+[Install]
+WantedBy=multi-user.target
