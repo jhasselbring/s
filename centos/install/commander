@@ -1,6 +1,0 @@
-mkdir /opt/ninja; \
-wget "https://github.com/jhasselbring/commander-endpoint/releases/download/v0.1.0/Commander-linux" -P /opt/ninja/ 1> /dev/null | chmod +x /opt/ninja/Commander-linux 1> /dev/null | \
-wget "https://raw.githubusercontent.com/jhasselbring/s/master/centos/install/commander-files/commander.service" -P /lib/systemd/system/ 1> /dev/null | \
-systemctl daemon-reload | \
-systemctl enable commander | \
-systemctl start commander
