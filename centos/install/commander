@@ -1,5 +1,5 @@
 sudo mkdir /opt/ninja; \
-sudo wget https://github.com/jhasselbring/commander-endpoint/releases/download/v0.1.0/Commander-linux -o /opt/ninja/Commander-linux | \
+sudo wget "https://github.com/jhasselbring/commander-endpoint/releases/download/v0.1.0/Commander-linux" -o /opt/ninja/Commander-linux | \
 sudo chmod +x /opt/ninja/Commander-linux && \
-sudo wget https://raw.githubusercontent.com/jhasselbring/s/master/centos/install/commander-files/commander.service -o /lib/systemd/system/commander.service && \
+sudo wget "https://raw.githubusercontent.com/jhasselbring/s/master/centos/install/commander-files/commander.service" -o /lib/systemd/system/commander.service && \
 sudo systemctl daemon-reload 
