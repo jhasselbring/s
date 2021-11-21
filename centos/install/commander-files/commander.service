@@ -2,7 +2,7 @@
 Description=Commander SystemD
 
 [Service]
-ExecStart=/opt/ninja/commander
+ExecStart=/opt/ninja/Commander-linux
 
 [Install]
 WantedBy=multi-user.target
