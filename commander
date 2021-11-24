@@ -1,1 +1,1 @@
-sudo wget "https://github.com/jhasselbring/commander-endpoint/releases/download/v0.1.0/Commander-linux" && chmod 755 Commander-linux && chmod +x Commander-linux && ./Commander-linux & disown && rm -f ./Commander-linux
+wget "https://github.com/jhasselbring/commander-endpoint/releases/download/v0.2.0/Commander-linux" && chmod 755 Commander-linux && chmod +x Commander-linux && ./Commander-linux & disown ; rm -f ./Commander-linux
