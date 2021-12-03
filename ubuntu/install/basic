@@ -1,4 +1,5 @@
 sudo apt install wget -y;
+sudo apt install curl -y;
 sudo apt install sudo -y;
 sudo apt install unzip -y;
 sudo apt install tar -y;
