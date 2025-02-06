@@ -1,0 +1,1 @@
+printf '\nrun (){\nwget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1 | printf\n}'
