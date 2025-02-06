@@ -1,1 +1,2 @@
-printf '\nshow (){\nwget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1\n}'
+printf '\nshow (){\nwget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1 \n}'
+source ~/.bashrc
