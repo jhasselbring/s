@@ -1,1 +1,1 @@
-printf '\nshow (){\nwget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1 | printf\n}'
+printf '\nshow (){\nwget -O - https://raw.githubusercontent.com/jhasselbring/s/master/$1\n}'
