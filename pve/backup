@@ -1,0 +1,1 @@
+vzdump <integer> --stdout | gzip > /mnt/pve/nas/template/cache/lxc-template-<string>-$(date +%F).tar.gz

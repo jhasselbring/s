@@ -1,0 +1,3 @@
+sudo truncate -s 0 /etc/machine-id
+sudo rm /etc/udev/rules.d/70-persistent-net.rules
+sudo shutdown now
