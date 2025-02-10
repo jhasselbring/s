@@ -3,4 +3,4 @@ bash /tmp/nvm.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 command -v nvm
-nvm install node
+nvm install --lts
