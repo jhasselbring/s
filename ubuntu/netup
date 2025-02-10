@@ -1,4 +1,4 @@
 ip link set eth0 up
-ip a
 dhclient eth0
+ip a
 ping -c 4 8.8.8.8
