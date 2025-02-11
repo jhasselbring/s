@@ -1,1 +1,1 @@
-sudo sh ./install-docker.sh
+sudo sh /tmp/install-docker.sh
